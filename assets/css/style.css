@@ -17,12 +17,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #02094b;;
   font-family: "Poppins", sans-serif;
+  color: #e7eaf6;
 }
 
 *::selection {
-  background: #2b3dda;
+  background: #a2a8d3;
   color: #fff;
 }
 
@@ -34,10 +35,10 @@ html::-webkit-scrollbar {
   width: 0.8rem;
 }
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: #38598b;
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #a2a8d3;
 }
 
 /* pre loader start */
@@ -46,7 +47,7 @@ html::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   z-index: 10000;
-  background: #e6eff1;
+  background: #113f67;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +71,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #113f67;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -79,24 +80,24 @@ section {
 }
 .heading {
   font-size: 3.5rem;
-  color: rgb(32, 32, 32);
+  color: #e7eaf6;
   font-weight: 800;
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: #a2a8d3;
 }
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #e7eaf6;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #a2a8d3;
 }
 header .navbar ul {
   list-style: none;
@@ -109,7 +110,7 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #e7eaf6;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -117,8 +118,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #a2a8d3;
+  border-bottom: 0.2rem solid #a2a8d3;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -127,7 +128,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #e7eaf6;
   display: none;
 }
 @media (max-width: 768px) {
@@ -142,7 +143,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #113f67;
   }
   header .navbar ul {
     flex-flow: column;
@@ -159,15 +160,15 @@ header .navbar ul li a:hover {
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #fff;
+    color: #e7eaf6;
     font-size: 2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
-    color: #fff;
+    color: #a2a8d3;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid #a2a8d3;
   }
   .fa-times {
     transform: rotate(180deg);
@@ -224,22 +225,22 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #e7eaf6;
 }
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #a2a8d3;
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #e7eaf6;
   font-weight: 600;
   padding: 1rem 0;
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color:  rgb(255, 230, 0);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -251,7 +252,7 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
+  background: #38598b;
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
@@ -266,7 +267,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: #113f67;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -289,22 +290,20 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #00d9ff;
-  background-color: #09011b;
+  color: #e7eaf6;
+  background-color: #38598b;
   width: 44px;
   height: 44px;
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #0685da;
+  background-color: #a2a8d3;
 }
 .social-icons a.github:hover {
   background-color: #0e0e0e;
@@ -322,6 +321,7 @@ header .navbar ul li a:hover {
   background-color: #ee00da;
 }
 /* social icons end */
+
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
@@ -346,7 +346,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: white;
 }
 .about .row {
   display: flex;
@@ -376,6 +376,9 @@ header .navbar ul li a:hover {
   flex: 1 1 45rem;
   padding: 3rem;
 }
+.about h2{
+  color:#020133;
+}
 .about .row .content h3 {
   color: rgb(27, 27, 27);
   font-size: 2.5rem;
@@ -392,6 +395,7 @@ header .navbar ul li a:hover {
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
+  color: #00002c;
 }
 .about .row .content .box-container {
   display: flex;
@@ -537,12 +541,16 @@ header .navbar ul li a:hover {
   background: #e5ecfb;
   min-height: 80vh;
 }
+.education h1{
+  color:#020133;
+}
 .education .qoute {
   font-size: 1.5rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin-top: 0.5rem;
+  color:  #113f67;
 }
 .education .box-container {
   display: flex;
@@ -587,7 +595,7 @@ header .navbar ul li a:hover {
   flex: 1 1 70rem;
 }
 .education .box-container .box .content h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #012970;
   padding: 0.5rem 0;
   font-weight: 600;
@@ -597,11 +605,12 @@ header .navbar ul li a:hover {
 .education .box-container .box .content p {
   font-size: 1.5rem;
   margin-left: 1rem;
+  color: #283142;
   text-align: left;
 }
 .education h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: rgb(27, 81, 3);
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
@@ -676,7 +685,7 @@ header .navbar ul li a:hover {
   position: absolute;
   top: 85%;
   left: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(59, 55, 55, 0.9);
   display: flex;
   flex-direction: column;
 }
@@ -688,7 +697,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #161648;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -790,7 +799,7 @@ header .navbar ul li a:hover {
   height: 25px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  border: 4px solid #38598b;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -815,9 +824,9 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #38598b;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #38598b;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -828,15 +837,15 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #38598b;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent#38598b transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #38598b;
   position: relative;
   border-radius: 6px;
 }
@@ -942,6 +951,9 @@ header .navbar ul li a:hover {
   border-radius: 1.5rem;
   margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.contact h2{ 
+  color:#020133;
 }
 .contact .container .content {
   display: flex;
