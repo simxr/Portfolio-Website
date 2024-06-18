@@ -9,16 +9,7 @@
             "code": "https://github.com/simxr/Car-Parking-Detector"
     }
   },
-  {
-    "name": "WatchDog PC",
-    "desc": "Using OpenCV to take a picture when there's a face detected and save it into your laptop's directory, without showing the cam to the user",
-    "image": "watchDog",
-    "category": "ml",
-    "links": {
-      "view":  "https://github.com/simxr/WatchDog-PC",
-      "code": "https://github.com/simxr/WatchDog-PC"
-    }
-  },
+  
   {
     "name": "A-Sorted: Sorting Visualizer",
     "desc": "Visualize 7 Sorting Algos (bubble, selection, insertion, heap, radix-lsd, quick, merge) with dynamic delay and array size toggle for better UX; along with copyable codes",
@@ -32,11 +23,21 @@
   {
     "name": "Nodejs Realtime Chat App",
     "desc": "A Real time chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI",
-    "image": "nodeChat.png",
+    "image": "nodechat",
     "category": "nodejs",
     "links": {
       "view": "https://github.com/simxr/Nodejs-Realtime-Chat",
       "code":"https://github.com/simxr/Nodejs-Realtime-Chat"
+    }
+  },
+  {
+    "name": "WatchDog PC",
+    "desc": "Using OpenCV to take a picture when there's a face detected and save it into your laptop's directory, without showing the cam to the user",
+    "image": "watchDog",
+    "category": "ml",
+    "links": {
+      "view":  "https://github.com/simxr/WatchDog-PC",
+      "code": "https://github.com/simxr/WatchDog-PC"
     }
   },
   {
